@@ -1,1 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
+div {text-align:center}
+.tab {display:inline-block; width:100px; cursor: pointer; margin: 15px; 
+    box-shadow:1px 1px 5px 0px rgba(0, 0, 0, 1);}

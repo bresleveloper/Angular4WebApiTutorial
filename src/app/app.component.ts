@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  tab = "All";
+
+  SetTab(tabToSet) {
+    this.tab = tabToSet;
+  };
 }

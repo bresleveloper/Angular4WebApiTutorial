@@ -1,0 +1,6 @@
+<div class="flex-me">
+  <b>  find-product-by-id!</b>
+  <input [(ngModel)]="id" type="text" placeholder="Id To Find"/>
+  <button (click)="find()">Search</button>
+  <div class="results"  [innerHTML]="resultsHtml" ></div>
+</div>
